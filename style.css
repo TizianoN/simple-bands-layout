@@ -1,0 +1,86 @@
+/* Palette colori */
+:root {
+  --color-background-dark: #101517;
+  --color-background-light: #f2f2f2;
+  --color-text-dark: #23282d;
+  --color-text-light: #f2f2f2;
+  --color-hover-light: #e1e1e1;
+  --color-video-play-background: rgba(255, 255, 255, 0.8);
+  --color-video-play-hover: rgba(255, 255, 255, 1);
+}
+
+/* Regole generiche */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+button {
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: all ease 0.15s;
+}
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Regole sezioni */
+
+section {
+  padding: 80px 0;
+}
+
+/* Regole sezioni pari */
+
+.even-section {
+  background-color: #101517;
+  color: #f2f2f2;
+}
+
+.even-section button {
+  background-color: #f2f2f2;
+}
+
+.even-section button:hover {
+  background-color: #e1e1e1;
+}
+
+/* Regole sezioni dispari */
+
+.odd-section {
+  background-color: #f2f2f2;
+  color: #23282d;
+}
+
+.odd-section button {
+  background-color: #101517;
+  color: #f2f2f2;
+}
+
+.odd-section button:hover {
+  background-color: #23282d;
+}
