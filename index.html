@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple bands layout</title>
 
+    <!-- icone Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
     <!-- font Josephin Slab -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +28,7 @@
     <!-- Hero section -->
     <section id="hero-section" class="even-section">
       <div class="container">
-        <h1>Fundamentals Live, a modo tuo</h1>
+        <h1 class="motto-title">Fundamentals Live, a modo tuo</h1>
         <p>
           Crea e sviluppa le tue competenze nel modo migliore con Boolean: lorem ipsum dolor sit amet consectetur
           adipisicing elit. Perferendis, dolor enim? Corporis sed numquam et voluptatum cupiditate.
@@ -32,36 +40,47 @@
     <!-- Video section -->
     <section id="hero-section" class="odd-section">
       <div class="container">
-        <h1>Fundamentals Live, a modo tuo</h1>
-        <p>
-          Crea e sviluppa le tue competenze nel modo migliore con Boolean: lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Perferendis, dolor enim? Corporis sed numquam et voluptatum cupiditate.
-        </p>
-        <button>Comincia ora!</button>
+        <!-- contenitore video -->
+        <div class="video-container">
+          <!-- layover "scuro" e tasto play -->
+          <div class="video-layover">
+            <button class="video-play">
+              <i class="fa-solid fa-play"></i>
+            </button>
+          </div>
+
+          <!-- immagine di copertina -->
+          <img
+            class="video-cover"
+            src="https://boolean-landings.s3.eu-central-1.amazonaws.com/MKYLShux7BXHuDtRViPxqR2TwKjAV3ZRC5axbS24.png" />
+        </div>
       </div>
     </section>
 
     <!-- Culture section -->
-    <section id="hero-section" class="even-section">
+    <section id="motto-section" class="even-section">
       <div class="container">
-        <h1>Fundamentals Live, a modo tuo</h1>
-        <p>
-          Crea e sviluppa le tue competenze nel modo migliore con Boolean: lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Perferendis, dolor enim? Corporis sed numquam et voluptatum cupiditate.
-        </p>
-        <button>Comincia ora!</button>
+        <h2 class="motto-title">
+          In Boolean ci impegniamo ci dedichiamo a valorizzare il potenziale umano attraverso un'istruzione tecnologica
+          di alta qualità. Crediamo nel potere della conoscenza e nel suo ruolo nel creare nuove opportunità
+          professionali.
+        </h2>
       </div>
     </section>
 
     <!-- Newsletter section -->
     <section id="hero-section" class="odd-section">
       <div class="container">
-        <h1>Fundamentals Live, a modo tuo</h1>
+        <h2 class="motto-title">Rimani sempre aggiornato</h2>
         <p>
-          Crea e sviluppa le tue competenze nel modo migliore con Boolean: lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Perferendis, dolor enim? Corporis sed numquam et voluptatum cupiditate.
+          Iscriviti alla nostra newlsetter per non perderti nessun evento! Non preoccuparti, promettiamo di non
+          spammare, riceverai aggiornamenti solo per ciò che ti interessa seguire.
         </p>
-        <button>Comincia ora!</button>
+
+        <div class="input-container">
+          <input type="text" class="newsletter-input" />
+          <button class="newsletter-button">Iscriviti</button>
+        </div>
       </div>
     </section>
   </body>
